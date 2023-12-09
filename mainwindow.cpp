@@ -17,15 +17,15 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_3_clicked()
 {
-    QMessageBox::information(this, "title", "text");
+    QMessageBox::information(this, "Information", "Your advertisement could be here");
 }
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    QMessageBox::warning(this, "title", "text");
+    QMessageBox::warning(this, "Warning", "I warn you");
 }
 
 void MainWindow::on_pushButton_clicked()
 {
-    QMessageBox::critical(this, "title", "text");
+    QMessageBox::critical(this, "Error occured", "Error 3: \"text\"");
 }
